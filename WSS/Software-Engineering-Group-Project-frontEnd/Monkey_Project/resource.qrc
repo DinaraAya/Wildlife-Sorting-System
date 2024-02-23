@@ -1,0 +1,26 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>icon/pause-64.png</file>
+    <file>icon/play-64.png</file>
+    <file>icon/menu-4-64 (2).png</file>
+    <file>icon/account-logout-64 (3).png</file>
+    <file>icon/info-2-64 (3).png</file>
+    <file>icon/list-rich-64.png</file>
+    <file>icon/home-3-64.png</file>
+    <file>icon/icons8-folder-64.png</file>
+    <file>icon/add-folder-64.png</file>
+    <file>icon/logout_gray.png</file>
+    <file>icon/info_gray.png</file>
+    <file>icon/file_gray.png</file>
+    <file>icon/file-3-64 (3).png</file>
+    <file>icon/process_gray.png</file>
+    <file>icon/home_gray.png</file>
+    <file>icon/menu-4-64.png</file>
+    <file>icon/monkey.png</file>
+    <file>icon/file-3-64.png</file>
+    <file>icon/account-logout-64 (1).png</file>
+    <file>icon/view-details-64 (3).png</file>
+    <file>icon/info-2-64.png</file>
+    <file>icon/home-5-64 (2).png</file>
+  </qresource>
+</RCC>

@@ -1,0 +1,163 @@
+/*= Style for mainwindow START
+  ==================================================== */
+	#MainWindow {
+		background-color: #1e242b;
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for button to change menu style START
+  ==================================================== */
+	#change_btn {
+		padding: 5px;
+		border: none;
+		width: 30px;
+		height: 30px;
+	}
+/*= END
+  ==================================================== */
+
+QTableWidget {
+    background-color: #323b47; /* Set background color */
+    alternate-background-color: #323b47; /* Set alternate row background color */
+    selection-background-color: #323b47; /* Set selection background color */
+    selection-color: #323b47; /* Set selection text color */
+    gridline-color: #323b47; /* Set grid line color */
+    color: #ffffff; /* Set text color */
+}
+
+QTableWidget QHeaderView::section:vertical {
+    background-color: #323b47; /* Set vertical header background color */
+    color: #323b47; /* Set text color for vertical header */
+}
+
+
+QHeaderView::section {
+    background-color: #394452; /* Set header background color */
+    color: #ffffff; /* Set header text color */
+    padding: 4px; /* Adjust padding for header sections */
+	alternate-background-color: #323b47;
+}
+
+#pushButton_11 {
+    background-color: transparent;
+}
+
+#widget_2 {
+    background-color: black;
+	border: 2px solid #808080;
+}
+
+#frame {
+	background-color: #3a4553;
+	border: 2px solid #808080;
+}
+
+#play_btn {
+    background-color: transparent;
+}
+
+#video_info_box {
+	background-color: #2a323c;
+}
+
+#add_folder_btn {
+	background-color: #006eff;
+	color: #ffffff;
+}
+
+#open_vid_btn {
+	background-color: #006eff;
+	color: #ffffff;
+}
+
+#export_file_btn {
+	background-color: #006eff;
+	color: #ffffff;
+}
+
+QListWidget {
+    background-color: #323b47
+}
+
+#class_lbl {
+	color: #ffffff;	
+}
+
+#date_lbl {
+	color: #ffffff;
+}
+
+#file_name_lbl {
+	color: #ffffff;
+}
+
+#file_path_lbl {
+	color: #ffffff;
+}
+
+
+
+/*= Style for menu with icon only START
+  ==================================================== */
+  	/* style for widget */
+	#icon_widget {
+		background-color: #313a46;
+		width:50px;
+	}
+
+    /* style for QPushButton and QLabel */
+	#icon_widget QPushButton, QLabel {
+		height:50px;
+		border:none;
+		/* border-bottom: 1px solid #b0b0b0; */
+	}
+
+	#icon_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	/* style for logo image */
+	#logo_label_1 {
+		padding: 5px
+	}
+/*= END
+  ==================================================== */
+
+/*= Style for menu with icon and text START
+  ==================================================== */
+	/* style for widget */
+	#full_menu_widget {
+		background-color: #313a46;
+	}
+
+	/* style for QPushButton */
+	#full_menu_widget QPushButton {
+		border:none;
+		border-radius: 3px;
+		text-align: left;
+		padding: 8px 0 8px 15px;
+		color: #788596;
+	}
+
+	#full_menu_widget QPushButton:hover {
+		background-color: rgba( 86, 101, 115, 0.5);
+	}
+
+	#full_menu_widget QPushButton:checked {
+		color: #fff;
+	}
+
+	/* style for logo image */
+	#logo_label_2 {
+		padding: 5px;
+		color: #fff;
+	}
+
+	/* style for APP title */
+	#logo_label_3 {
+		padding-right: 10px;
+		color: #fff;
+	}
+/*= END
+  ==================================================== */
